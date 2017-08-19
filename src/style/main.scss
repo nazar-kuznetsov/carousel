@@ -1,0 +1,73 @@
+@import 'reset';
+@import 'fonts';
+@import 'variable';
+@import 'libs';
+@import 'grid';
+@import 'mixins';
+@import 'blocks/placeholder';
+
+@import 'base';
+@import 'blocks/others-style/button';
+@import 'blocks/others-style/section-header';
+@import 'blocks/others-style/section';
+@import 'blocks/others-style/title';
+@import 'blocks/others-style/icon';
+
+// Block
+
+@import 'blocks/footer';
+
+
+
+
+
+
+
+// Slider style
+
+
+.slider .container {
+  overflow: hidden;
+  padding: 0;
+}
+
+.slider__list {
+  display: flex;
+  min-height: 350px;
+  transition: transform 1s;
+
+}
+
+.slider__item {
+  min-width: 100%;
+}
+
+
+.slider__item:nth-child(1) {background-color: red;}
+.slider__item:nth-child(2) {background-color: blue;}
+.slider__item:nth-child(3) {background-color: #00FF1A;}
+.slider__item:nth-child(4) {background-color: #E1FF00;}
+.slider__item:nth-child(5) {background-color: #00FBFF;}
+
+
+
+
+
+
+
+
+
+
+// Slider style
+
+
+
+
+
+
+
+
+
+
+// Media
+@import 'media'; //Всегда в конце
